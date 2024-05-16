@@ -35,7 +35,7 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
 @Client.on_message(filters.command("repo") & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
+        photo=f"https://telegra.ph/file/b6bac2c6308ec0897b914.jpg",
         caption=f"""𝐑𝐄𝐏𝐎 𝐋𝐄𝐆𝐀 𝐁𝐊𝐋 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -53,8 +53,8 @@ async def repo(client: Client, message: Message):
 async def help(client: Client, message: Message):
 
     await message.reply_photo(
-        photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
-        caption=f"""𝐋𝐔𝐍𝐃 𝐋𝐄𝐆𝐀 𝐁𝐒𝐃𝐋🤣""",
+        photo=f"https://telegra.ph/file/b6bac2c6308ec0897b914.jpg",
+        caption=f"""𝐑𝐄𝐏𝐎 𝐋𝐄𝐆𝐀 𝐁𝐊𝐋 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -70,8 +70,8 @@ async def help(client: Client, message: Message):
 @Client.on_message(filters.command("repo") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
-        caption=f"""𝐋𝐔𝐍𝐅 𝐋𝐄𝐆𝐀 𝐁𝐒𝐃𝐊 🤣""",
+        photo=f"https://telegra.ph/file/b6bac2c6308ec0897b914.jpg",
+        caption=f"""𝐑𝐄𝐏𝐎 𝐋𝐄𝐆𝐀 𝐁𝐊𝐋 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -111,7 +111,7 @@ async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @BuG_Musix_Bot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @khushixsongbot`**"
         )
         return
 
@@ -125,7 +125,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
 
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1002132398644:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
