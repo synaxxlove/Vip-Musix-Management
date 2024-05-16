@@ -17,7 +17,7 @@ MESSAGES = f"""
 ᴛɪʀᴇᴅ ᴏғ ᴘʀᴏᴍᴏᴛɪᴏɴᴀʟ ᴀᴅᴠᴇʀᴛɪꜱᴇᴍᴇɴᴛ ᴘᴏꜱᴛꜱ ᴏɴ ᴏᴛʜᴇʀ ʙᴏᴛꜱ?
 
 ᴛʀʏ - 🐾 ˹ϻʊsɪx ˼ 
-↳ @Ur_music_robot   🐾
+↳ @khushixsongbot   🐾
 
 ↬ ᴀᴅꜱ & ᴘʀᴏᴍᴏᴛɪᴏɴꜱ ғʀᴇᴇ.
 ↬ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ
@@ -26,7 +26,7 @@ MESSAGES = f"""
 ↬ ʟᴀɢ ꜰʀᴇᴇ
 
 🔧 ᴠɪꜱɪᴛ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 
-↳ @Ur_support07  ғᴏʀ ᴍᴏʀᴇ !
+↳ @synaxchatgroup  ғᴏʀ ᴍᴏʀᴇ !
 
 **"""
 
@@ -36,13 +36,13 @@ BUTTONS = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •",
-                url=f"https://t.me/ur_rishu_143",
+                url=f"https://t.me/Khushixsongbot?startgroup=true",
             )
         ]
     ]
 )
 
-MESSAGE = f"""**ᴀᴅᴅ ~ @Ur_rishu_143 ~  ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💞
+MESSAGE = f"""**ᴀᴅᴅ ~ @khushixsongbot ~  ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💞
 
 🥀 ᴢᴇʀᴏ ᴅᴏᴡɴᴛɪᴍᴇ & ʟᴀɢꜰʀᴇᴇ ᴍᴜꜱɪᴄꜱ 🤍
 
@@ -53,7 +53,7 @@ BUTTON = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "• ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙʏ •",
-                url=f"https://t.me/ur_music_robot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
+                url=f"https://t.me/khuhixsongbot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
     ]
