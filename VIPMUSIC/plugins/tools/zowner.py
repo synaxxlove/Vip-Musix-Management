@@ -36,12 +36,12 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/608c9f342236df59ac595.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""𝐑𝐄𝐏𝐎 𝐋𝐄𝐆𝐀 𝐁𝐊𝐋 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/Rishu1286"
+                        "🌱 sᴏᴜʀᴄᴇ 🌱", url=f"https://t.me/sanatanisynax"
                     )
                 ]
             ]
@@ -52,13 +52,13 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/608c9f342236df59ac595.jpg",
+        photo=f"https://graph.org/file/d97eb8cee1f55eda8f42c.jpg",
         caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/Rishu1286"
+                        "🌱 contact 🌱", url=f"https://t.me/sanatanisynax"
                     )
                 ]
             ]
@@ -93,7 +93,7 @@ async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TG_VC_BOT`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @khushixsongbot`**"
         )
         return
 
@@ -107,7 +107,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
 
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1002132398644:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
