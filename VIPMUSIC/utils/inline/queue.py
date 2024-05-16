@@ -81,7 +81,7 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/ur_rishu_143",
+                url="https://t.me/synaxnetwork",
             ),
         ],
     ]
@@ -116,7 +116,7 @@ def queuemarkup(_, vidid, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/ur_rishu_143",
+                url="https://t.me/synaxnetwork",
             ),
         ],
     ]
