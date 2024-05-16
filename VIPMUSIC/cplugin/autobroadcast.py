@@ -36,13 +36,13 @@ BUTTONS = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •",
-                url=f"https://t.me/Khushixsongbot?startgroup=true",
+                url=f"https://t.me/khushixsongbot?startgroup=true",
             )
         ]
     ]
 )
 
-MESSAGE = f"""**ᴀᴅᴅ ~ @khushixsongbot ~  ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💞
+MESSAGE = f"""**ᴀᴅᴅ ~ @verifiedsarthak ~  ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💞
 
 🥀 ᴢᴇʀᴏ ᴅᴏᴡɴᴛɪᴍᴇ & ʟᴀɢꜰʀᴇᴇ ᴍᴜꜱɪᴄꜱ 🤍
 
@@ -53,7 +53,7 @@ BUTTON = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "• ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙʏ •",
-                url=f"https://t.me/khuhixsongbot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
+                url=f"https://t.me/khushixsongbot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
     ]
