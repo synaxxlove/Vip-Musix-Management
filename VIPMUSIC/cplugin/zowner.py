@@ -36,12 +36,12 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
 async def repo(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""𝐑𝐄𝐏𝐎 𝐋𝐄𝐆𝐀 𝐁𝐊𝐋 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/SH251204?tab=repositories"
+                        "🌱 ʟᴜɴᴅ ʟᴇʟᴇ🌱", url=f"https://t.me/synaxnetwork"
                     )
                 ]
             ]
@@ -54,12 +54,12 @@ async def help(client: Client, message: Message):
 
     await message.reply_photo(
         photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""𝐋𝐔𝐍𝐃 𝐋𝐄𝐆𝐀 𝐁𝐒𝐃𝐋🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/SH251204?tab=repositories"
+                        "🌱 ʟᴜɴᴅ ʟᴇʟᴇ 🌱", url=f"https://t.me/synaxnetwork"
                     )
                 ]
             ]
@@ -71,12 +71,12 @@ async def help(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/8497b3052bf3da8137d2a.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        caption=f"""𝐋𝐔𝐍𝐅 𝐋𝐄𝐆𝐀 𝐁𝐒𝐃𝐊 🤣""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/SH251204?tab=repositories"
+                        "🌱 ʟᴜɴᴅ ʟᴇʟᴇ 🌱", url=f"https://t.me/synaxnetwork"
                     )
                 ]
             ]
