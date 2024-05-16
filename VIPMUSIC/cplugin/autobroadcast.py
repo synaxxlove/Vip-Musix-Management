@@ -11,7 +11,7 @@ from VIPMUSIC.core.mongo import mongodb, pymongodb
 
 AUTO_GCAST = True
 
-START_IMG_URLS = "https://graph.org/file/595c0e3e44126d1fed1d7.jpg"
+START_IMG_URLS = "https://telegra.ph/file/057fc3dcf1fa940919c8a.jpg"
 
 MESSAGES = f"""
 ᴛɪʀᴇᴅ ᴏғ ᴘʀᴏᴍᴏᴛɪᴏɴᴀʟ ᴀᴅᴠᴇʀᴛɪꜱᴇᴍᴇɴᴛ ᴘᴏꜱᴛꜱ ᴏɴ ᴏᴛʜᴇʀ ʙᴏᴛꜱ?
